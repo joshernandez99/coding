@@ -14,6 +14,5 @@ def intersect(nums1: list[int], nums2: list[int]) -> list[int]:
     
     return [k for k, v in hashTable.items() if v > 1]
     
-    
 
 print(intersect([1,2,2,1],[2,2]))
